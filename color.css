@@ -1,0 +1,28 @@
+body{
+
+    margin-top: 15em;
+    text-align: center;
+
+}
+
+#area{
+
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: auto;
+    height: auto;
+    place-content: center;
+
+}
+
+.buton{
+
+    width: 10em;
+    height: 10em;
+    border: 5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
